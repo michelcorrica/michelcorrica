@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+<style>
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+input{
+    background-color: aliceblue;
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+}
+label{
+    font-size: 20px;
+    padding: 20px
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    color:black;
+    background-color: purple;
+    border: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+body{
+    background-image:url(img/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg);
+}
+
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin: 25px;
+    text-decoration: none;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 30px;
+}
+a:hover{
+color: rgb(17, 0, 255);
+text-shadow: 100px;
+transform: scale(1.1);
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <!--BARRA DE NAVEGAÇÃO-->
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+            </ul>
+        </nav>
+
+            <h1>Entre em contato</h1>
+        
+    </header>
+    <!--Formulário-->
+<form action="#" method="#">
+<label for="nome">Nome:</label><input type="text" name="nome" id="nome">
+
+<label for="email">E-mail:</label><input type="email" name="email" id="email">
+
+<label for="telefone">Telefone:</label><input type="number" name="telefone" id="telefone">
+
+<button>Enviar</button>
+
+</form>
+   
+</body>
+</html>
